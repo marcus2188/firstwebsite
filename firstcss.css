@@ -1,0 +1,56 @@
+p{
+	font-family: courier;
+}
+ol{
+	font-style: italic;
+	list-style-type:upper-roman;
+}
+ul{
+	list-style-type:katakana;
+}
+body{
+	background-color: #1C2833;
+	color: White;
+	background-image: url(340.jpg), url(cool.jpg);
+	background-repeat: no-repeat, no-repeat;
+	background-size: 100% 100%, auto auto;
+	background-position: 0px 300px, 0px 0px;
+}
+img{
+	border:none;
+}
+a:link{
+	color: yellow;
+}
+a:visited{
+	color: hotpink;
+}
+a:hover{
+	background-color: Silver;
+}
+a:active{
+	color: Orange;
+}
+p > a {
+	color:Brown;
+}
+#flashingbulb {
+	position:absolute;
+	top:1200px;
+	left:750px;
+}
+#titlequote {
+	position:absolute;
+	left:850px;
+}
+.pinkypunkytext {
+	color:pink;
+	margin:15px;
+	font-family:Arial;
+	font-weight:bold;
+}
+.quotelayout {
+	text-align:right;
+	font-family:Helvetica;
+	color:Black;
+	font-style:italic;
